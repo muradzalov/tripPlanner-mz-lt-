@@ -5,10 +5,37 @@
 body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #C1B5AD;
+  background-color: white;
 }
 
 #map {
   height: 100vh;
   width: 100vw;
 }
+
+#nav {
+  background-color: black;
+}
+
+.navItems {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  margin: 7px;
+  padding: 0;
+  background-color: rgb(255, 255, 255);
+}
+
+.selector {
+  display: flex;
+  flex-direction: column;
+  width: 14vw;
+  align-items: center;
+  /* height: 5vh; */
+  background-color: orange;
+  justify-content: flex-end;
+
+}
+
